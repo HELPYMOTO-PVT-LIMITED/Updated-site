@@ -1,0 +1,109 @@
+.grow-together {
+    height: 100vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden !important;
+    width: 100% !important;
+}
+
+.grow-together-content {
+    display: flex;
+    background: #4A74B8;
+    transform: rotate(-9.6deg) scale(1.2)!important;
+    flex-grow: 1;
+    height: 20rem !important;
+}
+
+.grow-together-image {
+    flex-basis: 40% !important;
+    background-image: url('../images/business funding.jpg');
+    background-position: center center !important;
+    background-size: cover !important;
+}
+
+.grow-together-maintext {
+    flex-basis: 60% !important;
+    font-style: normal;
+    color: #F9FDFE;
+    transform: rotate(9.6deg) scale(0.833) !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.grow-together-maintext h3 {
+    font-weight: bold;
+    font-family: Arial;
+    font-size:2rem;
+    text-transform: uppercase;
+}
+
+.grow-together-maintext p {
+    align-items: center;
+    font-weight: normal;
+    font-family: Arial;
+    font-size: 1rem;
+}
+
+.grow-together-maintext span {
+    font-weight: bold;
+}
+
+.grow-together-maintext a {
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #4A74B8;
+}
+
+.btn-support-us {
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 10px 40px;
+    height: fit-content;
+}
+
+.btn-support-us:hover {
+    color: white;
+    background-color: #2c6eda;
+    transition: all ease 0.2s;
+    box-shadow: 5px 10px 30px rgba(255, 251, 251, 0.2);
+}
+
+@media (min-width:576px) {
+    .grow-together-maintext h3 {
+        font-size: 2rem;
+    }
+    .grow-together-maintext p {
+        font-size: 1rem;
+    }
+    .grow-together-maintext a {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width:768px) {
+    .grow-together-maintext h3 {
+        font-size: 2.5rem;
+    }
+    .grow-together-maintext p {
+        font-size: 1.5rem;
+    }
+    .grow-together-maintext a {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width:992px) {
+    .grow-together-maintext h3 {
+        font-size: 3rem;
+    }
+    .grow-together-maintext p {
+        font-size: 2rem;
+    }
+    .grow-together-maintext a {
+        font-size: 2rem;
+    }
+}

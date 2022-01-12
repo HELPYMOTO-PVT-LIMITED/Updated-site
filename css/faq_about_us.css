@@ -1,0 +1,98 @@
+.faq_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem 0;
+}
+
+.heading_faq {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(69, 69, 69);
+    padding: 1rem 2rem;
+}
+
+.heading_faq_description {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: center;
+    color: rgb(69, 69, 69);
+    max-width: 50rem;
+    padding: 0 2rem;
+}
+
+.services-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    margin: 1rem 0rem 1rem 0rem;
+    padding: 0.5rem;
+}
+
+.services-content-1-2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.services-content-3-4 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.services-content {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    width: 40vw;
+}
+
+.services-question-mark {
+    align-self: flex-start;
+    padding: 0.5rem;
+}
+
+.faq_container .content-head {
+    position: relative;
+    align-self: flex-start;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 33px;
+    /* identical to box height */
+    color: #454545;
+}
+
+.faq_container .content-body {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    color: #454545;
+}
+
+@media (max-width:800px) {
+    .services-content-1-2 {
+        flex-direction: column;
+    }
+    .services-content-3-4 {
+        flex-direction: column;
+    }
+    .faq_container  .content-body {
+        width: 100%;
+    }
+    .services-content {
+        width: 100vw;
+    }
+}

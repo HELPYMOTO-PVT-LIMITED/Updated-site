@@ -1,0 +1,117 @@
+
+.funding{
+    font-family: 'Ropa Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.funding .image{
+    width: 100%;
+    height: 50% !important;
+    background: url(../images/funding.png)no-repeat center center/cover;
+}
+
+.funding-content{
+    width: 100%;
+    height: 50% !important;
+    background: #454545;
+    opacity: 0.7;
+}
+
+.funding-content p{
+    margin: 5% !important;
+    font-size: 1.5rem;
+    line-height:1.5rem;
+    color: #FFFFFF;
+}
+
+
+.funding  h1{
+    margin: 1.375rem 0;
+    margin-top: 2.875rem;
+    font-size: 3rem;
+    line-height: 51px;
+    color: #557CBC !important;
+}
+
+.funding-form{
+    padding-left: 15%;
+    padding-right:  15%;
+}
+
+.funding-form .form-control{
+    border: none;
+    padding: 0.875rem 1.375rem;
+    margin: 1.4375rem 0;
+    font-size: 1.375rem;
+    line-height: 24px;
+    background: #F0F0F0;
+    color: #A0A0A0;
+    border-radius: 0;
+}
+
+.funding-form .form-control::placeholder{
+    color: #A0A0A0; 
+}
+
+.btn-funding{
+    border: none;
+    border-radius: 4px;
+    padding: 1rem 3rem;
+    margin: 1.375rem 0;
+    font-size: 1.75rem;
+    line-height: 30px;
+    background: #4A74B8;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+@media (min-width: 576px){
+
+    .funding-content p{
+        margin: 2rem;
+        font-size: 1.75rem;
+        line-height: 1.75rem;
+        color: #FFFFFF;
+    }
+    
+}
+
+@media (min-width: 992px){
+    .funding-content{
+        height: 50% !important;
+        width: 100%;
+        background: #454545;
+        opacity: 0.7;
+    }
+    
+    .funding-content p{
+        margin: 2rem;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        color: #FFFFFF;
+    }
+    
+}
+
+@media (min-width: 1200px){
+    .funding-content{
+        height: 50% !important;
+        width: 100%;
+        background: #454545;
+        opacity: 0.7;
+    }
+    
+    .funding-content p{
+        margin: 5% !important;
+        font-size: 1.8rem;
+        line-height: 1.8rem;
+        color: #FFFFFF;
+    }
+    
+}

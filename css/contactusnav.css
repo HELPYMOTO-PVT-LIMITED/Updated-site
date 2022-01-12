@@ -1,0 +1,108 @@
+.contactus-1 h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 34px;
+}
+
+.contactus-1 p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+
+.contactus-1 {
+  background: #557CBC;
+  height: 47.5rem;
+  padding: 15% 15% 0 10%;
+  color: var(--secondary-color);
+}
+
+.contactus-2 {
+  background-image: url(../images/formbg.png);
+  background-size: cover;
+}
+
+.row-1 {
+  margin: 0%;
+}
+
+.form-container {
+  padding: 20% 10% 0% 25%;
+}
+
+.cu-form {
+  background-color:rgb(223, 217, 217) ;
+  border-radius: 10px;
+  margin: 1.25rem;
+  width: 100%;
+  margin-left: -10px;
+  height: 2.812rem;
+}
+
+.cu-textarea {
+  background-color:rgb(223, 217, 217) ;
+  border-radius: 10px;
+  margin: 1.25rem;
+  width: 100%;
+  margin-left: -10px;
+}
+input[type="text"]::placeholder {  
+                  
+  /* Firefox, Chrome, Opera */ 
+  padding-left: 10px; 
+} 
+input[type="email"]::placeholder {  
+                  
+  /* Firefox, Chrome, Opera */ 
+  padding-left: 10px; 
+}
+textarea[type="text"]::placeholder {  
+                  
+  /* Firefox, Chrome, Opera */ 
+  padding-left: 10px; 
+}
+
+.mainLoginInput::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-family: 'myFont', Arial, Helvetica, sans-serif;
+  opacity: 1; /* Firefox */
+}
+.btn-form {
+  background-color: #557CBC;
+  color: #ffffff;
+}
+
+.cu-btn {
+  margin: 1.25rem;
+}
+
+.social-media {
+  padding: 10%;
+  text-align: center;
+  height: 31.25rem;
+}
+
+.social-media h4 {
+  font-family: Roboto;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-bottom: 10%;
+}
+
+.cu-icon {
+  color: #557CBC;
+  margin: 5%;
+}
+
+@media only screen and (max-width: 576px) {
+  .contactus-1 {
+    width: 100%;
+  }
+  .cu-form {
+    width: 75%;
+  }
+  .cu-textarea {
+    width: 75%;
+  }
+  .social-media {
+    padding-top: 30%;
+  }
+}

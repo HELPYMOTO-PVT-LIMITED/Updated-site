@@ -1,0 +1,49 @@
+.bg-image {
+  background-image: url("../images/undraw_by_my_car_ttge\ 1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100vw 90vh;
+  background-color: #E5EFFF;
+}
+
+/* Add styles to the form container */
+.glass-effect{
+  color: var(--bs-light) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(3px) !important;
+}
+
+#entry-form {
+  font-family: Ropa Sans;
+}
+
+#entry-form .nav-link {
+  color:#454545 !important;
+  background-color: transparent !important;
+}
+
+#entry-form .nav-link.active {
+  border-bottom: 0.1rem solid #6C63FF !important;
+  border-radius: 0 !important;
+}
+
+#entry-form .form-control {
+  color: #A0A0A0;
+  background-color: transparent !important;
+  border:0;
+  border-bottom: 0.1rem solid #3F8FFE;
+  border-radius: 0;
+}
+
+#entry-form .form-control:focus {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.btn-entry{
+  font-family: Ropa Sans;
+  color: white !important;
+  background-color: var(--primary-color) !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}

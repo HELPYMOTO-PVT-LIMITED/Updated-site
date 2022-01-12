@@ -1,0 +1,177 @@
+
+#leaders {
+    display: flex;
+    margin: 30px;
+}
+
+#leaders .box-leader {
+    width: 33%;
+    padding: 0px 40px;
+    margin: 47px auto;
+    /* border: 2px solid black; */
+}
+
+#leaders .box-leader img {
+    display: block;
+    width: 150px;
+    margin: auto;
+    clip-path: circle();
+}
+
+#leaders .box-leader p {
+    font-family: 'Tomorrow', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #262525;
+}
+
+/* Words From Customers Section */
+
+.words-from-customers {
+    margin: 177px 63px;
+}
+
+.head {
+    margin: 44px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    text-align: center;
+}
+
+#box-customer {
+    display: flex;
+}
+
+#customers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 115px 18px;
+    padding: 100px 35px;
+    background: #9EC3FF;
+    border-radius: 43px;
+}
+
+#customers .heading {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+    margin-top: -65px;
+    margin-left: 0;
+}
+
+#customers .heading img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    clip-path: circle();
+}
+
+#customers .heading h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 23px;
+    color: #262525;
+}
+
+#customers .words {
+    font-family: 'Tomorrow', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+/* utility class */
+
+.h-primary {
+    margin: 44px;
+    font-family: Tomorrow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    color: #262525;
+    text-align: center;
+}
+
+.h-secondary {
+    /* text-align: center; */
+    margin: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    /* line-height: 28px; */
+    color: #262525;
+}
+
+.center {
+    text-align: center;
+}
+
+@media (max-width: 1060px) {
+    /* Meet Our Leaders Section */
+    #leaders {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    #leaders .box-leader {
+        width: 75%;
+        margin: 35px 0px;
+    }
+    #leaders .box-leader img {
+        width: 115px;
+    }
+    #leaders .box-leader p {
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+    /* Words From Customers Section */
+    .words-from-customers {
+        margin: 100px 0px;
+    }
+    .head {
+        margin: 44px;
+        font-size: 1.9rem;
+        text-align: center;
+    }
+    #box-customer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #customers {
+        margin: 20px 30px;
+    }
+    #customers .heading h3 {
+        font-size: 1.2rem;
+    }
+    #customers .words {
+        font-size: 1.2rem;
+        /* text-align: justify; */
+    }
+    /* utility class */
+    .h-primary {
+        margin: 44px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .h-secondary {
+        font-size: 1.2rem;
+        margin: 20px;
+    }
+}

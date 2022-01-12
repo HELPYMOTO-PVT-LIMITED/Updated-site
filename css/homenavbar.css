@@ -1,0 +1,158 @@
+.bgimg {
+    background-image: url('../images/background_img.jpg') !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    width: 100% !important;
+    height: 120vh !important;
+    clip-path: polygon(0 0, 0 100%, 100% calc(100% - 0.15*100vw), 100% 0);
+}
+
+.helpy, .moto {
+    font-family: 'Ropa Sans', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 10rem;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 3px var(--bs-light) !important;
+    padding: 1rem !important;
+}
+
+.bgimg h2 {
+    font-family: 'Tomorrow', sans-serif;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 72px;
+    color: var(--secondary-color);
+}
+
+.bgimg h3 {
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 30px;
+    line-height: 43px;
+    color: var(--secondary-color);
+}
+
+.btn-reachus {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.btn-reachus:focus {
+    opacity: 0.7 !important;
+    box-shadow: none !important;
+}
+
+.btn-reachus:hover {
+    color: var(--primary-color);
+}
+
+/* -------- btn styling homepage ------- */
+.section123{
+    /* position: absolute; */
+    z-index: 1;
+}
+.vertical {
+    border-left: 3px solid black;
+    height: 600px;
+    position:absolute;
+    left: 55%;
+    top:20px;
+}
+.vr123 h1{
+    position: relative;
+    z-index: 1;
+    bottom:-50px;
+}
+
+@media (min-width:576px){
+    .vr123{
+        writing-mode: vertical-lr;
+        text-transform: capitalize;
+        text-orientation: mixed;
+        transform: rotate(-180deg);
+        transform-origin:center !important;
+    }
+}
+.group1{
+    
+    width: 55%;
+    margin-top: -260px;
+    margin-left: 10px;
+}
+.user{
+    position: absolute;
+    bottom: 550px;
+    left: 400px;
+
+}
+.group2{
+    position: relative;
+    width: 50%;
+    left: 820px;
+    bottom: 590px;
+}
+.mechanic{
+    position: absolute;
+    right: 450px;
+    top: 10px;
+}
+.group1 ,.btn1 , .btn4 ,  .btn11{
+    left: 330px;
+    position: relative;
+    text-align: center;
+    
+}
+.group1 ,.btn7  {
+    position: relative;
+    left: 200px;
+}
+.group1 , .btn8, .btn11 {
+   position: relative;
+    left: 10px;
+    top: 200px;
+    right: 20px;
+}
+.group1 , .btn6{
+    position: relative;
+    top: 50px;
+    
+    
+}
+.group1 , .btn10 , .btn11{
+    position: relative;
+    top: -10px;
+}
+.group1 , .btn2 , .btn5{
+    position: relative;
+    top: 50px;
+    right: 155px;
+}
+.group1 , .btn3 {
+    position: relative;
+    right: 30px;
+    top: 40px;
+}
+.group2 .btn12 , .btn13{
+    position: relative;
+    top: 30px;
+}
+.group2  .btn16 ,.btn18 {
+    position: relative;
+    left: 120px;
+    top: -40px;
+
+}
+.group2  .btn17 , .btn19{
+    position: relative;
+    right: 200px;
+    top: 30px;
+}
+.group2 .btn20{
+    position: relative;
+    bottom: 50px;
+    left: 140px;
+}

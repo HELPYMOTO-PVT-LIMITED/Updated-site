@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+.subscribe-heading {
+  display: flex;
+  text-align: center;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  top: 50%;
+  left: -10%;
+  margin: auto;
+  position: absolute;
+  color: #454545;
+  transform: rotate(-90deg);
+}
+
+section{
+  padding: 100px 0;
+}
+.max-width{
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+.services2{
+  font-family: 'Poppins', sans-serif;
+}
+
+.services2 .serv-content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+section .title{
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+section .title::before{
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #111;
+  transform: translateX(-50%);
+}
+section .title::after{
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  font-size: 20px;
+  color: crimson;
+  padding: 0 5px;
+  background: #fff;
+  transform: translateX(-50%);
+}
+
+
+/* card section styling */
+.services2, .teams{
+  color:#fff;
+  /* background: rgb(99, 99, 139); */
+}
+.services22 .title::before,
+.teams .title::before{
+  background: #fff;
+}
+.services2 .title::after,
+.teams .title::after{
+  background: rgb(99, 99, 139);
+  content: "what i provide";
+}
+.services2 .serv-content .card{
+  width: calc(33% - 20px);
+  background: #222;
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.services2 .serv-content .card:hover{
+  background: crimson;
+}
+.services2 .serv-content .card .box{
+  transition: all 0.3s ease;
+}
+.services2 .serv-content .card:hover .box{
+  transform: scale(1.05);
+}
+.services2 .serv-content .card i{
+  font-size: 50px;
+  color: crimson;
+  transition: color 0.3s ease;
+}
+.services2 .serv-content .card:hover i{
+  color: #fff;
+}
+.services2 .serv-content .card .text{
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+/* responsive media query start */
+@media (max-width: 991px) {
+  .max-width{
+      /* padding: 0 50px; */
+  }
+}
+@media (max-width: 947px){
+  .services2 .serv-content .card{
+      width: calc(50% - 10px);
+      margin-bottom: 20px;
+  }
+  
+}
+@media (max-width: 690px){
+  .services2 .serv-content .card{
+      width: 100%;
+  }
+  .services2 .serv-content .card:hover{
+      background: crimson;
+  }
+}

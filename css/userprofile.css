@@ -1,0 +1,50 @@
+.user-pro {
+  height: 120vh;
+  background-color: var(--primary-color);
+}
+
+.user-heading h2 {
+  color: var(--secondary-color);
+  font-family: Ropa Sans;
+  font-size: 72px;
+}
+
+.user-heading p {
+  color: var(--secondary-color);
+  font-family: Ropa Sans;
+  font-size: 24px;
+}
+
+.user-heading {
+  padding: 15%;
+}
+
+.pro-pic {
+  padding-left: 20%;
+}
+
+@media only screen and (max-width: 576px) {
+  .contactus-1 {
+    width: 100%;
+  }
+  .cu-form {
+    width: 75%;
+  }
+  .cu-textarea {
+    width: 75%;
+  }
+  .social-media {
+    padding-top: 30%;
+  }
+  .user-heading h2 {
+    font-size: 40px;
+  }
+  .user-heading {
+    flex-direction: row-reverse;
+    text-align: center;
+  }
+  .pro-pic {
+    padding: 0%;
+    margin-bottom: 7%;
+  }
+}

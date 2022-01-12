@@ -1,0 +1,106 @@
+.aboutus {
+    min-height: 100vh !important;
+    width: 100% !important;
+  }
+  
+  .aboutus .content {
+    background: #454545 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    font-family: "Tomorrow", sans-serif !important;
+    justify-content: center !important;
+  }
+  
+  .aboutus .content h4 {
+    left: 95px;
+    top: 1130px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    color: #f8384f;
+  }
+  
+  .pic {
+    border-radius: 80px;
+  }
+  /* Heading- Brief About Us */
+  
+  .aboutus .content h2 {
+    margin: 20px 0px;
+    margin-bottom: 35px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    color: #e5e5e5;
+  }
+  
+  .aboutus .content p {
+    width: 72%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+  }
+  
+  /* Image */
+  
+  .aboutus-img {
+    background: url("../images/lights.jpg") no-repeat center / cover;
+    margin-left: -30%;
+  }
+  
+  @media (max-width: 992px) {
+    /* about section */
+    .aboutus {
+      flex-direction: column;
+    }
+    /* all content */
+    .aboutus .content {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      padding-top: 50px;
+      padding-bottom: 140px;
+      align-items: center;
+    }
+    /* Heading- About Us */
+    .aboutus .content h4 {
+      font-size: 1.6rem;
+    }
+    /* Heading- Brief About Us */
+    .aboutus .content h2 {
+      font-size: 2.2rem;
+      margin: 10px 0px;
+      margin-bottom: 20px;
+    }
+    .aboutus .content p {
+      text-align: center;
+      font-size: 1.3rem;
+      width: auto !important;
+    }
+    /* image */
+    .aboutus-img {
+      margin: 0;
+      margin-top: -10%;
+      width: 75% !important;
+      margin-bottom: 10% !important;
+    }
+    above-footer-btn {
+      position: relative;
+      width: 16rem;
+      height: 3.25rem;
+      top: 1rem;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 1.7rem;
+      text-align: center;
+      background: var(--secondary-color);
+      border-radius: 4px;
+      color: var(--primary-color);
+      justify-content: center;
+        padding-top: 0.3rem;
+      }
+    }
