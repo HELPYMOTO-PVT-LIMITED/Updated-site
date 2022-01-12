@@ -1,0 +1,51 @@
+/* Funding Section */
+#funding{
+    flex-direction: column;
+}
+
+/* image and content */
+#left{
+    width: 100%;
+}
+
+#left .image{
+    height: 350px;
+}
+
+#left .content p{
+    margin: 2rem;
+
+    font-size: 1.5rem;
+}
+
+
+
+/* form */
+#right{
+    width: 100%;
+}
+
+#right h1{
+    margin: 1rem 0;
+    margin-top: 2.4rem;
+
+    font-size: 2.4rem;
+}
+
+#right #form-box{
+    width: 75%;
+}
+
+#form-box input, #form-box textarea{
+    padding: 0.7rem 1rem;
+    margin: 1.2rem 0;
+
+    font-size: 1.3rem;
+}
+
+#form-box #btn{
+    padding: 0.6rem 2rem;
+    margin: 1.2rem 0;
+
+    font-size: 1.5rem;
+}

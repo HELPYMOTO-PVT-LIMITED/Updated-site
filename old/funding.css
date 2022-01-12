@@ -1,0 +1,103 @@
+/* CSS Reset */
+*{
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Ropa Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* Funding Section */
+#funding{
+    display: flex;
+}
+
+/* image and content */
+#left{
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+}
+
+#left .image{
+    width: 100%;
+    height: 500px;
+    
+    background: url(funding.png)no-repeat center center/cover;
+}
+
+#left .content{
+    width: 100%;
+
+    background: #454545;
+    opacity: 0.7;
+}
+
+#left .content p{
+    margin: 4.375rem;
+
+    font-size: 2rem;
+    line-height: 34px;
+
+    color: #FFFFFF;
+}
+
+
+
+/* form */
+#right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 50%;
+}
+
+#right h1{
+    margin: 1.375rem 0;
+    margin-top: 2.875rem;
+    
+    font-size: 3rem;
+    line-height: 51px;
+
+    color: #557CBC;
+}
+
+#right #form-box{
+    width: 57%;
+}
+
+#form-box input, #form-box textarea{
+    width: 90%;
+
+    border: none;
+    
+    padding: 0.875rem 1.375rem;
+    margin: 1.4375rem 0;
+    
+    font-size: 1.375rem;
+    line-height: 24px;
+    
+    background: #F0F0F0;
+    color: #A0A0A0;
+}
+
+::placeholder{
+    color: #A0A0A0; 
+}
+
+#form-box #btn{
+    border: none;
+    border-radius: 4px;
+
+    padding: 1rem 3rem;
+    margin: 1.375rem 0;
+    
+    font-size: 1.75rem;
+    line-height: 30px;
+    
+    background: #4A74B8;
+    color: #FFFFFF;
+}

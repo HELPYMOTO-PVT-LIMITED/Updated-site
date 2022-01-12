@@ -1,0 +1,117 @@
+:root {
+    --primary-color:  #557CBC!important;
+    --secondary-color: #ffffff !important;
+}
+.bg-secondary {
+    background-color: var(--secondary-color) !important;
+}
+
+
+
+
+
+/*navbar*/
+
+.navbar-container {
+  padding-top: 1.25rem !important;
+  
+} 
+.blank{
+  height: 105px;
+  width: 100%;
+}
+
+
+.btn-signup{
+    color:var(--secondary-color);
+    background-color: var(--primary-color);
+}
+.btn-signup:hover{
+  color: var(--secondary-color);
+}
+
+ 
+  /*hamburger*/
+  .topnav #myLinks {
+    display: none;
+    
+  }
+  
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.06rem;
+    display: block;
+   
+  }
+  .topnav a.icon {
+    display: block;
+  }
+
+  .fa { 
+   margin-right: 2.81rem;
+  -webkit-font-smoothing: antialiased;
+    margin-top: 1.06rem;
+  }
+
+.nav-icon{
+  color: var(--primary-color)!important;
+}
+
+
+
+
+
+
+
+
+
+
+.aboutus-1{
+  background-color: rgba(58, 121, 244, 0.2);;
+  height: 40.5rem;
+  padding: 10% 0% 0% 8%
+}
+.row-1{
+  margin: 0%;
+}
+.aboutus-1 h5{
+  font-weight: normal;
+  font-size: 28px;
+  color: #F8384F;
+}
+.aboutus-1 h1{
+font-family: Tomorrow;
+font-weight: bold;
+font-size: 41px;
+color: #454545;
+}
+.aboutus-1 h4{
+font-family: Tomorrow;
+font-weight:normal;
+font-size: 36px;
+color: #454545;
+}
+.aboutus-2{
+  background-color: #FFFFFF;
+  padding: 2% 0% 0% 10%;
+}
+
+
+
+
+
+
+@media only screen and  (max-width: 576px){
+
+    .brand {
+         flex-basis: 60% !important;
+     }
+     .aboutus-1{
+       padding-top: 50%;
+      }
+      .aboutus-2{
+        padding: 0%;
+      }
+    }

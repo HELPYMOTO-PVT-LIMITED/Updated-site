@@ -1,0 +1,254 @@
+:root{
+    --primary-color:#4A74B8;
+    --secondary-color:#FFFFFF;
+
+}
+
+.above-footer-container{
+    background-color: var(--primary-color);
+    padding: 5rem 0 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.above-footer-line-1{
+    position: relative;
+    top: 0px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.25rem;
+    line-height: 3rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--secondary-color);
+
+}
+
+.above-footer-line-2{
+    position: relative;
+    top: 0px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--secondary-color);
+}
+
+.above-footer-btn{
+    position: relative;
+    width: 16rem;
+    height: 3.25rem;
+    top: 1rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.70rem;
+    text-align: center;
+    background: var(--secondary-color);
+    border-radius: 4px;
+    color: var(--primary-color);
+    justify-content: center;
+    padding-top: 0.3rem;
+}
+
+.apna-footer{
+    width: 100%;
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: row;
+    padding: 4vw;
+    
+}
+
+.left-footer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.5rem;
+    
+}
+.footer-logo-HM{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.footer-logo-image{
+   
+    height: 3.5rem;
+    
+    
+}
+
+
+
+.social-media-footer-logos{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0 1rem 0;
+    
+
+}
+.foot-log{
+    padding: 0.5rem;
+}
+
+.beside-logo-text{
+    position: relative;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: #454545;
+
+}
+
+.below-logo-text{
+    position: relative;
+    height: 3.5rem;
+    font-family: 'Tomorrow', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 4rem;
+    letter-spacing: 0.3em;
+    color: #C4C4C4;
+}
+
+
+
+
+.heading-center-footer{
+    position: relative;
+    font-family: 'Tomorrow', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #454545;
+}
+
+.center-footer-contents{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 1rem;
+
+}
+.center-footer-text{
+    height: 3rem;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3rem;
+    color: #454545;
+}
+.center-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.heading-right-footer{
+    position: relative;
+    font-family: 'Tomorrow', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #454545;
+}
+
+
+.right-footer{
+    display: flex;
+    flex-direction: column;
+}
+.right-footer-text{
+    position: relative;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: #454545;
+    padding-top: 1rem;
+    text-align: justify;
+}
+
+
+.right-footer-contact{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+.right-footer-call{
+    display: flex;
+    flex-direction: row;
+    padding: 0.8rem 0;
+}
+
+.right-footer-email{
+    display: flex;
+    flex-direction: row;
+    padding: 0.8rem 0;
+}
+
+.call-text{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    color: #454545;
+    padding-left: 1.5rem;
+}
+
+.email-logo{
+    align-self: center;
+}
+
+.email-text{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    color: #454545;
+    padding-left: 1.5rem;
+}
+
+
+@media(max-width:950px){
+    .apna-footer{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .center-footer{
+        align-items: center;
+    }
+    .center-footer-contents{
+        align-items: center;
+    
+    }
+
+    .right-footer{
+        align-items: center;
+    }
+
+    .left-footer{
+        align-items: center;
+    }
+
+    .social-media-footer-logos{
+        justify-content: center;
+        
+    
+    }
+
+    
+}

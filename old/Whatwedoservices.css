@@ -1,0 +1,145 @@
+:root {
+    --primary-color:  #557CBC!important;
+    --secondary-color: #ffffff !important;
+}
+
+
+.services-container{
+    padding:2rem 0 2rem 0 ;
+    background-color: var(--primary-color);
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.services-headings{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.heading-1{
+    position: relative;
+font-family: 'Tomorrow', sans-serif;;
+font-style: normal;
+font-weight: 200;
+font-size: 1.4rem;
+line-height: 34px;
+align-self: center;
+/* identical to box height */
+
+
+color:#FAFAFA;
+
+}
+
+.heading-2{
+    position: relative;
+
+font-family: 'Tomorrow', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 54px;
+align-self: center;
+/* identical to box height */
+
+
+color:var(--secondary-color);
+}
+
+.services-content-container{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    margin:1rem 0rem 1rem 0rem;
+    padding: 0.5rem;
+}
+
+.services-content-1-2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.services-content-3-4{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+.services-content{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    width: 40vw;
+
+}
+
+.services-question-mark{
+    align-self: flex-start;
+    padding: 0.5rem;
+}
+
+.content-head{
+    position: relative;
+    align-self:flex-start;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 1.6rem;
+line-height: 33px;
+/* identical to box height */
+
+color: var(--secondary-color);
+}
+
+.content-body{
+    position: relative;
+
+
+font-family:'Roboto', sans-serif;
+font-style: normal;
+font-weight: 200;
+font-size: 1.3rem;
+line-height: 28px;
+color: var(--secondary-color);
+
+}
+
+
+@media (max-width:800px){
+    .services-content-1-2{
+        
+        flex-direction: column;
+        
+    
+    }
+    
+    .services-content-3-4{
+        
+        flex-direction: column;
+        
+    }
+
+    .content-body{
+      
+    width: 100%;
+
+    }
+
+    .services-content{
+        
+        width: 100vw;
+    
+    }
+
+}
