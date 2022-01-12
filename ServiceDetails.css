@@ -1,0 +1,76 @@
+/* CSS Reset */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#service-section{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+/* Heading - Service Details */
+.h-primary{
+    margin-top: 3rem;
+    margin-bottom: 8.75rem;
+
+    font-family: 'Ropa Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.5rem;
+    line-height: 77px;
+
+    color: #454545;
+}
+
+#service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Service Box */
+#service .service-box{
+    margin: 0 6.25rem;
+    margin-bottom: 6.25rem;
+
+    background: #E5E5E5;
+}
+
+/* Heading - On Spot Service */
+#service .service-box h3{
+    margin: 1.875rem 6.5634rem;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 28px;
+
+    color: #454545;
+}
+
+#service .service-box ul{
+    margin-left: 2.8125rem;
+    margin-bottom: 2.3125rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* all details */
+#service .service-box .details-item{
+    list-style: none;
+
+    margin: 0.6875rem 0;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 28px;
+
+    color: #454545;
+}

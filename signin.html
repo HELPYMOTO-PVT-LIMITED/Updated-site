@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/theme.css">
+    <link href="css/signin.css" rel="stylesheet">
+    <!-- ----------AOS Animation cdn ---------- -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>sign in</title>
+</head>
+
+<body>
+    <div class="vh-100 container-fluid d-flex justify-content-center align-items-center bg-image" data-aos="slide-left">
+        <div class="card glass-effect bg-transparent p-4 shadows shadow-lg ">
+            <div class="card-body" id="entry-form" data-aos="flip-right">
+                <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-customer-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-customer" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true"><a href="./userprofile.html">CUSTOMER</a></button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-mechanic-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-mechanic" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false"> <a href="./mechanic_rating.html"> MECHANIC</a></button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-admin-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-admin" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false"> <a href="./admin_pannel.html">ADMIN</a> </button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent" data-aos="fade-up">
+                    <div class="tab-pane fade show active" id="pills-customer" role="tabpanel">
+                        <ul class="nav nav-pills mb-4 d-flex justify-content-around" id="pills-tab-" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-customer-signin-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-customer-signin" type="button" role="tab">SIGN IN</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-customer-signup-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-customer-signup" type="button" role="tab"
+                                    aria-controls="pills-home" aria-selected="false">SIGN UP</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-customer-signin" role="tabpanel"
+                                aria-labelledby="pills-profile-tab">
+                                <form>
+                                    <div class="mb-4">
+                                        <input name="name" class="form-control" type="text" placeholder="Email">
+                                    </div>
+                                    <div class="mb-4">
+                                        <input name="name" class="form-control" type="text" placeholder="Phone No">
+                                    </div>
+                                    <div class="mb-4 d-flex justify-content-center">
+                                        <button type="submit" class="btn btn-entry">Login</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="pills-customer-signup" role="tabpanel"
+                                aria-labelledby="pills-contact-tab">
+                                <form>
+                                    <div class="mb-4">
+                                        <input name="name" class="form-control" type="text" placeholder="Full Name">
+                                    </div>
+                                    <div class="mb-4">
+                                        <input name="name" class="form-control" type="text" placeholder="Email">
+                                    </div>
+                                    <div class="mb-4">
+                                        <input name="name" class="form-control" type="text" placeholder="Phone No">
+                                    </div>
+                                    <div class="mb-4">
+                                        <input name="name" class="form-control" type="text" placeholder="Password">
+                                    </div>
+                                    <div class="mb-4">
+                                        <input name="name" class="form-control" type="text"
+                                            placeholder="Re-Type Password">
+                                    </div>
+                                    <div class="mb-4 d-flex justify-content-center">
+                                        <button type="submit" class="btn btn-entry">Sign Up</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-mechanic" role="tabpanel">
+                        <ul class="nav nav-pills mb-4 d-flex justify-content-around" id="pills-tab-" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-mechanic-signin-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-mechanic-signin" type="button" role="tab">SIGN IN</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-mechanic-signup-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-mechanic-signup" type="button" role="tab"
+                                    aria-controls="pills-home" aria-selected="false">SIGN UP</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-mechanic-signin" role="tabpanel"
+                                aria-labelledby="pills-profile-tab">
+                                <form>
+                                    <div class="mb-4">
+                                        <input name="name" class="form-control" type="text" placeholder="Email">
+                                    </div>
+                                    <div class="mb-4">
+                                        <input name="name" class="form-control" type="text" placeholder="Phone No">
+                                    </div>
+                                    <div class="mb-4 d-flex justify-content-center">
+                                        <button type="submit" class="btn btn-entry">Login</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="pills-mechanic-signup" role="tabpanel"
+                                aria-labelledby="pills-contact-tab">
+                                <form>
+                                    <div class="mb-4">
+                                        <input name="name" class="form-control" type="text" placeholder="Full Name">
+                                    </div>
+                                    <div class="mb-4">
+                                        <input name="name" class="form-control" type="text" placeholder="Email">
+                                    </div>
+                                    <div class="mb-4">
+                                        <input name="name" class="form-control" type="text" placeholder="Phone No">
+                                    </div>
+                                    <div class="mb-4">
+                                        <input name="name" class="form-control" type="text" placeholder="Password">
+                                    </div>
+                                    <div class="mb-4">
+                                        <input name="name" class="form-control" type="text"
+                                            placeholder="Re-Type Password">
+                                    </div>
+                                    <div class="mb-4 d-flex justify-content-center">
+                                        <button type="submit" class="btn btn-entry">Sign Up</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-admin" role="tabpanel">
+                        <ul class="nav nav-pills mb-4 d-flex justify-content-around" id="pills-tab-" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-admin-signin-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-admin-signin" type="button" role="tab">SIGN IN</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-admin-signup-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-admin-signup" type="button" role="tab"
+                                    aria-controls="pills-home" aria-selected="false">SIGN UP</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-admin-signin" role="tabpanel"
+                                aria-labelledby="pills-profile-tab">
+                                <form>
+                                    <div class="mb-4">
+                                        <input name="name" class="form-control" type="text" placeholder="Email">
+                                    </div>
+                                    <div class="mb-4">
+                                        <input name="name" class="form-control" type="text" placeholder="Phone No">
+                                    </div>
+                                    <div class="mb-4 d-flex justify-content-center">
+                                        <button type="submit" class="btn btn-entry">Login</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="pills-admin-signup" role="tabpanel"
+                                aria-labelledby="pills-contact-tab">
+                                <form>
+                                    <div class="mb-4">
+                                        <input name="name" class="form-control" type="text" placeholder="Full Name">
+                                    </div>
+                                    <div class="mb-4">
+                                        <input name="name" class="form-control" type="text" placeholder="Email">
+                                    </div>
+                                    <div class="mb-4">
+                                        <input name="name" class="form-control" type="text" placeholder="Phone No">
+                                    </div>
+                                    <div class="mb-4">
+                                        <input name="name" class="form-control" type="text" placeholder="Password">
+                                    </div>
+                                    <div class="mb-4">
+                                        <input name="name" class="form-control" type="text"
+                                            placeholder="Re-Type Password">
+                                    </div>
+                                    <div class="mb-4 d-flex justify-content-center">
+                                        <button type="submit" class="btn btn-entry">Sign Up</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- ------AOS Animation script ------- -->
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init({
+     offset: 300,
+     duration: 1000
+   });
+ </script>
+</body> 
+
+
+
+</html>

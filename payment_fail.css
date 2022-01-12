@@ -1,0 +1,52 @@
+:root {
+    --primary-color:  #557CBC!important;
+    --secondary-color: #ffffff !important;
+}
+.bg-secondary {
+    background-color: var(--secondary-color) !important;
+}
+
+
+
+
+
+
+
+
+
+#payment1{
+        padding: 17% 0% 0% 0%;
+        text-align: center;
+        color: #000000;
+}
+.fail{
+   font-size: 3.5rem;
+}
+.tryagain{
+       font-size: 1.5rem;
+       margin-bottom: 3%;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   @media only screen and  (max-width: 768px){
+    #payment1{
+        padding-top: 40%;
+    }
+}

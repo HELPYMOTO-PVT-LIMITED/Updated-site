@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helpy Moto</title>
+
+     <!-- ----------AOS Animation cdn ---------- -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Font awesome css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Tomorrow:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/fundingnav.css">
+    <link rel="stylesheet" href="css/funding.css">
+    <link rel="stylesheet" href="css/thinkaboutit.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body class="bg-secondary">
+    <!-- Navbar -->
+    
+     <header class=" sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary nav-1">
+            <div class="container-fluid navbar-container">
+                <a class="navbar-brand me-auto" href="./funding.html">
+                    <img class="img-fluid" id="logo_image" src="images/logo_HM.png" alt="helpy motto brand image">
+                </a>
+                <a class="btn  btn-signup home" id="navbar_btn"   href="./index.html" role="button">home</a>
+                <a class="btn-signup" id="navbar_btn"  href="./about.html" role="button">about us</a>
+                <a class="btn btn-signup" id="navbar_btn"  href="./mechanic_rating.html" role="button">mechanical</a>
+                <a class="btn btn-signup" id="navbar_btn"  href="./contact.html" role="button">contact</a>
+                <a class="btn btn-signup signin"  href="./signin.html" role="button">Sign in</a>
+                <a class="btn btn-signup" href="./signup.html" role="button">Sign Up</a>
+
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <div class="btn btn-bars" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i class="mx-auto fa fa-2x fa-bars my-auto"></i>
+                </div>
+            </div>
+        </nav>
+    </header> 
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content rounded-0 nav-modal">
+                <div class="modal-body p-0">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="topnav d-flex flex-column col ps-3 align-content-stretch">
+                                <div class="flex-fill"><a href="./index.html">Home</a></div>
+                                <div class="flex-fill"><a href="./about.html">About</a></div>
+                                <div class="flex-fill"> <a href="./contact.html">Hire</a></div>
+                                <div class="flex-fill"> <a href="./funding.html">Funding</a></div>
+                                <div class="flex-fill"><a href="./contact.html">Contact</a></div>
+                                <div class="nav-icon flex-fill">
+                                    <i class="fab fa-twitter fa-lg"></i>
+                                    <i class="fab fa-facebook fa-lg"></i>
+                                    <i class="fab fa-instagram-square fa-lg"></i>
+                                </div>
+                            </div>
+                            <div class="d-flex bg-primary p-3 col">
+                                <div class="flex-fill">
+                                    <form id="enquiry-form">
+                                        <div>
+                                            <h3 class="text-light">Send a Enquiry</h3>
+                                        </div>
+                                        <div class="mb-3">
+                                            <input class="form-control" type="text" placeholder="Name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <input class="form-control" type="email" placeholder="Email">
+                                        </div>
+                                        <div class="mb-3">
+                                            <textarea class="form-control" placeholder="Enquiry"></textarea>
+                                        </div>
+                                        <div class="mb-3">
+                                            <!--For messages-->
+                                        </div>
+                                        <div class="mb-3">
+                                            <input class="btn w-100" type="submit" name="submt" value="Submit">
+                                        </div>
+                                    </form>
+                                </div>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bgimg transbox"data-aos="flip-right">
+       
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images/f1.jpeg" alt="First slide">
+
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/f2.jpeg" alt="First slide">
+
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/f3.jpeg" alt="First slide">
+
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/f4.jpeg" alt="First slide">
+
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+       
+       
+          
+       
+        <!-- <div
+            class="container d-block justify-content-center justify-contend-lg-center align-items-center transbox h-100 ">
+            <p class="partner">be a partner</p>
+            <h1 class="in-this">In this</h1>
+            <p class="">journey</p>
+        </div> -->
+    </div>
+
+
+
+
+
+
+
+<!-- ************************fund us **************   -->
+
+
+    <div class="fund-us" data-aos="slide-right">
+        <div class="fund">
+            <h1>Fund</h1>
+        </div>
+        <div class="us">
+            <h1>us</h1>
+        </div>
+    </div>
+
+    <!--Funding-->
+    <div class="container-fluid p-0" data-aos="fade-down-right" data-aos="fade-up">
+        <div class="funding row m-0" data-aos="flip-left">
+            <!-- image and content -->
+            <div class="col-12 col-lg-6 d-flex flex-column vh-100 p-0">
+                <div class="image"></div>
+                <div class="funding-content"data-aos="slide-right">
+                    <p>As all of us recognise that a car (that is a machine) can get caught or wreck down everywhere
+                        even as
+                        travelling.We will offer them a mechanic as rapid as feasible to their doorstep or everywhere
+                        they
+                        want. For the start of this or to carry this into working, we want supporting palms withinside
+                        the
+                        shape on investors. A supporting hand of yours can carry a drastic alternate in our begin up.
+                    </p>
+                </div>
+            </div>
+            <!-- form -->
+            <div class="col-12 col-lg-6 p-0" data-aos="fade-right">
+                <div class="funding-form">
+                    <h1 class="text-center">Reach Us For Funding</h1>
+                    <form action="" class="px-auto">
+                        <div>
+                            <input class="form-control" type="text" name="" id="" placeholder="First Name">
+                        </div>
+
+                        <div class="">
+                            <input class="form-control" type="text" name="" id="" placeholder="Firm Name 1">
+                        </div>
+
+                        <div class="form-items">
+                            <input class="form-control" type="email" name="e" id="" placeholder="Email">
+                        </div>
+
+                        <div class="form-items">
+                            <input class="form-control" type="phone" name="" id="" placeholder="Phone No">
+                        </div>
+
+                        <div class="form-items">
+                            <input class="form-control" type="text" name="" id="" placeholder="Firm Name 2">
+                        </div>
+
+                        <div class="form-items">
+                            <textarea class="form-control" name="" id="" cols="30" rows="4"
+                                placeholder="Message"></textarea>
+                        </div>
+
+                        <button class="btn btn-funding"data-aos="flip-up">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Think about it-->
+    <div class="container-fluid main-text"data-aos="fade-down-right" data-aos="slide-left">
+
+        <h3 id="heading" data-aos="slide-down">Thinking About It? </h3>
+
+        <p class="para" data-aos="slide-left">Helpy Moto is a provider-primarily based totally company which offers with the trouble
+            confronted with the aid of using the folks who travels with a car or who owns a car. As all of us recognise
+            that a car (that is a machine) can get caught or wreck down everywhere even as travelling. We are right here
+            for imparting provider to them everywhere in India. We assist them to restore their car in an powerful and
+            green manner in order that they might not get into hassle getting their car to the restore keep and it's
+            going to assist to now no longer waste their treasured time.
+            <br><br>
+            We will offer them a mechanic as rapid as feasible to their doorstep or everywhere they want. All they must
+            do that they have got to return back to our internet site or app and lease a mechanic. All the offerings may
+            be on their fingertips only.
+        </p>
+
+        <p class="para" data-aos="slide-right">For the start of this or to carry this into working, we want supporting palms withinside the
+            shape on investors. A supporting hand of yours can carry a drastic alternate in our begin up. We are right
+            here for converting your treasured funding into earnings as this concept is worthwhile with the aid of using
+            layout as we recognise that each car both steeply-priced or now no longer wishes repairing. There may be a
+            large patron withinside the market.
+            <br><br>
+            Oue hardworking crew will go away no stone unturned to take this startup to a height. We will make each
+            feasible attempt to make this startup successful.
+        </p>
+
+    </div>
+
+    <!--Footer-->
+    <div class="container-fluid above-footer-container"data-aos="fade-down-right" data-aos="fade-up">
+        <div class="above-footer-line-1" data-aos="fade-up">In Trouble? Let Us Help</div>
+        <div class="above-footer-line-2" data-aos="fade-up">Stuck On The Road? Don't Worry</div>
+        <button type="button" class="btn btn-primary btn-lg above-footer-btn" data-aos="fade-up">Hire Mechanic</button>
+    </div>
+
+
+    <footer class="new_footer_area bg_color">
+        <div class="new_footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                          <div class="footer-logo-HM">
+                            <img class="footer-logo-image" src="images/Logo.svg" alt="Logo" />
+                          
+                            </div>
+                          
+                          <!-- <h3 class="f-title f_600 t_color f_size_18">Get in Touch</h3> -->
+                            <p>Don’t miss any updates of our new templates and extensions.!</p>
+                            <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
+                                <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
+                                <button class="btn btn_get btn_get_two" type="submit">Subscribe</button>
+                                <p class="mchimp-errmessage" style="display: none;"></p>
+                                <p class="mchimp-sucmessage" style="display: none;"></p>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                            <h3 class="f-title f_600 t_color f_size_18">Download</h3>
+                            <ul class="list-unstyled f_list">
+                                <li><a href="#">Company</a></li>
+                                <li><a href="#">Android App</a></li>
+                                <li><a href="#">ios App</a></li>
+                                <li><a href="#">Desktop</a></li>
+                                <li><a href="#">Projects</a></li>
+                                <li><a href="#">My tasks</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                            <h3 class="f-title f_600 t_color f_size_18">Help</h3>
+                            <ul class="list-unstyled f_list">
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Term &amp; conditions</a></li>
+                                <li><a href="#">Reporting</a></li>
+                                <li><a href="#">Documentation</a></li>
+                                <li><a href="#">Support Policy</a></li>
+                                <li><a href="#">Privacy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s"
+                          style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+                          <h3 class="f-title f_600 t_color f_size_18">Team Solutions</h3>
+                          <div class="f_social_icon">
+                            <a href="https://www.facebook.com/100069828099402/posts/188318540172415/?app=fbl" class="fab fa-facebook"></a>
+                            <a href="https://twitter.com/HelpyMoto/status/1463812454064951298?t=ktHcSiYdmseJHk_ZgHiWog&s=08" class="fab fa-twitter"></a>
+                            <a href="https://www.linkedin.com/posts/helpy-moto-37b898215_linkinbio-helpymoto-automotive-activity-6869576993105600512-hBIr" class="fab fa-linkedin"></a>
+                            <a href="#" class="fab fa-pinterest"></a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="footer_bg">
+                <div class="footer_bg_one"></div>
+                <div class="footer_bg_two"></div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-sm-7">
+                        <p class="mb-0 f_400">© helpy moto Inc.. 2021 All rights reserved.</p>
+                    </div>
+                    <div class="col-lg-6 col-sm-5 text-right">
+                        <p>Made with <i class="icon_heart"></i> in <a href="http://cakecounter.com" target="_blank">helpy moto</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+     <!-- ------AOS Animation script ------- -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 300,
+      duration: 1000
+    });
+  </script>
+</body>
+
+</html>

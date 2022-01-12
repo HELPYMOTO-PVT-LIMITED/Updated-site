@@ -1,0 +1,79 @@
+/* Meet Our Leaders Section */
+#leaders{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+}
+
+
+#leaders .box-leader{    
+    width: 75%;
+    margin: 35px 0px;
+}
+
+
+#leaders .box-leader img{
+    width: 115px;
+}
+
+
+#leaders .box-leader p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+
+
+
+/* Words From Customers Section */
+.words-from-customers{
+    margin: 100px 0px;
+}
+
+
+.head{
+    margin: 44px;
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+
+#box-customer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#customers{
+    margin: 20px 30px;
+}
+
+
+#customers .heading h3{
+    font-size: 1.2rem;
+}
+
+#customers .words{
+    font-size: 1.2rem;
+    /* text-align: justify; */
+}
+
+
+
+/* utility class */
+.h-primary{
+    margin: 44px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.h-secondary{
+    font-size: 1.2rem;
+    margin: 20px;
+}

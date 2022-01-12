@@ -1,0 +1,311 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.sea {
+  display: flex;
+  position: absolute;
+  width: 487px;
+  height: 58px;
+  left: 1100px;
+  top: 44px;
+  display: block;
+
+  border: 1px solid #a8a8a8;
+  box-sizing: border-box;
+  border-radius: 47px;
+}
+
+.notification {
+  display: flex;
+  position: absolute;
+
+  padding-left: 1625.51px;
+  padding-top: 46.61px;
+  padding-bottom: 934.45px;
+}
+
+.pro {
+  display: flex;
+
+  position: absolute;
+
+  height: 70px;
+  width: 70px;
+}
+.topbar {
+  display: flex;
+}
+.pic {
+  display: flex;
+
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 1700px;
+  top: 38px;
+}
+
+form.example::after {
+  display: flex;
+
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.notification .badge {
+  display: flex;
+  position: absolute;
+  top: 35px;
+  right: -10px;
+  padding: 1px 5px;
+  border-radius: 50%;
+  background: rgb(130, 130, 240);
+  color: white;
+}
+.rectangle {
+  display: flex;
+  position: absolute;
+  width: 695px;
+  height: 892px;
+  left: 0px;
+  top: 132px;
+
+  background: #c4c4c4;
+}
+
+.boxes {
+  display: flex;
+  position: absolute;
+  width: 296px;
+  height: 144px;
+  left: 750px;
+  top: 155px;
+
+  border: 1px solid #c6c6c6;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+.boxes-2 {
+  display: flex;
+
+  position: absolute;
+  width: 296px;
+  height: 144px;
+  left: 1100px;
+  top: 155px;
+
+  border: 1px solid #c6c6c6;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+.boxes-3 {
+  display: flex;
+
+  position: absolute;
+  width: 296px;
+  height: 144px;
+  left: 1450px;
+  top: 155px;
+  border: 1px solid #c6c6c6;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+.boxes-4 {
+  display: flex;
+
+  width: 296px;
+  height: 144px;
+  left: 750px;
+  top: 357px;
+
+  border: 1px solid #c6c6c6;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+.boxes-5 {
+  display: flex;
+
+  position: absolute;
+  width: 296px;
+  height: 144px;
+  left: 1100px;
+  top: 357px;
+
+  border: 1px solid #c6c6c6;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+.boxes-6 {
+  display: flex;
+
+  position: absolute;
+  width: 296px;
+  height: 144px;
+  left: 1450px;
+  top: 357px;
+
+  border: 1px solid #c6c6c6;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.boxes-7 {
+  display: flex;
+
+  position: absolute;
+  width: 296px;
+  height: 144px;
+  left: 750px;
+  top: 559px;
+
+  border: 1px solid #c6c6c6;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.boxes-8 {
+  display: flex;
+
+  position: absolute;
+  width: 296px;
+  height: 144px;
+  left: 1100px;
+  top: 559px;
+
+  border: 1px solid #c6c6c6;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.boxes-9 {
+  display: flex;
+
+  position: absolute;
+  width: 296px;
+  height: 144px;
+  left: 1450px;
+  top: 559px;
+
+  border: 1px solid #c6c6c6;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.boxes-10 {
+  display: flex;
+
+  position: absolute;
+  width: 296px;
+  height: 144px;
+  left: 750px;
+  top: 761px;
+
+  border: 1px solid #979797;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.pro-2 {
+  position: absolute;
+  width: 71px;
+  height: 70px;
+  left: 39px;
+  top: 42px;
+  bottom: 32px;
+  right: 186px;
+}
+.details{
+  position: absolute;
+  width: 76px;
+  left: 163px;
+  top: 30px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.mail{
+  display: flex;
+  position: absolute;
+  width: 79px;
+  left: 170px;
+  top: 53px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
+.aaa{
+  justify-content: end;
+}
+
+.num{
+  display: flex;
+  position: absolute;
+width: 75px;
+height: 12px;
+left: 168px;
+top: 70px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.pho{
+  display: flex;
+  position: absolute;
+width: 62px;
+height: 12px;
+left: 168px;
+top: 85px;
+display: flex;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+@media   (max-width: 1060px)
+{
+  .sea {
+    display: flex;
+    position: absolute;
+    width: 487px;
+    height: 58px;
+    left: 1100px;
+    top: 44px;
+    display: block;
+    left: 1100px;
+    border: 1px solid #a8a8a8;
+    box-sizing: border-box;
+    border-radius: 47px;
+  }
+}

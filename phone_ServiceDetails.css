@@ -1,0 +1,32 @@
+/* Heading - Service Details */
+.h-primary{
+    margin-top: 3rem;
+    margin-bottom: 4.75rem;
+
+    font-size: 2.8rem;
+}
+
+/* Service Box */
+#service .service-box{
+    margin: 0 2.25rem;
+    margin-bottom: 3.25rem;
+}
+
+/* Heading - On Spot Service */
+#service .service-box h3{
+    margin: 1.875rem 3.5634rem;
+
+    font-size: 1.2rem;
+}
+
+#service .service-box ul{
+    margin-left: 1.8rem;
+    margin-bottom: 1.3rem;
+}
+
+/* all details */
+#service .service-box .details-item{
+    margin: 0.6rem 0;
+
+    font-size: 1.2rem;
+}

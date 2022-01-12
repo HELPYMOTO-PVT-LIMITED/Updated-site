@@ -1,0 +1,60 @@
+:root {
+    --primary-color:  #557CBC!important;
+    --secondary-color: #ffffff !important;
+}
+.bg-secondary {
+    background-color: var(--secondary-color) !important;
+}
+
+
+
+
+
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+.ty{
+  color: #2BB673;
+  font-size: 50px;
+  margin-bottom: 3%;
+}
+#payment{
+  padding: 10% 0% 0% 0%;
+  text-align: center;
+  
+}
+#payment h3{
+  color: #2BB673;
+  font-size: 40px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+#payment h2{
+  margin-bottom: 2%;
+}
+
+
+
+
+
+
+
+
+@media only screen and  (max-width: 768px){
+
+    .brand {
+         flex-basis: 60% !important;
+     }
+     #payment{
+       padding-top: 45%;
+     }
+    }
+
+
+    
