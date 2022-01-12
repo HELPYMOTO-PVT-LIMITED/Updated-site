@@ -1,0 +1,75 @@
+#credit-card{
+    margin: 50px 0;
+}
+
+
+/* Outer Box */
+#payment{
+    width: 330px;
+    
+    padding: 1rem 2rem;
+}
+
+
+/* Rs. 1000 */
+.heading{
+    font-size: 28px;
+    
+    margin-bottom: 26px;
+}
+
+
+/* All Inputes and their labels */
+.form .card-element{
+    margin-bottom: 2rem;
+}
+
+/* lables */
+.form .lable{
+    margin: 6px;
+
+    font-size: 1.4rem;
+    line-height: 35px;
+}
+
+/* inputes */
+.form .input{
+    padding: 8px 43px 8px 11px;
+
+    font-size: 1.1rem;
+}
+
+
+/* icons */
+.form .icon-relative .far,
+.form .icon-relative .fas{
+    width: 40px;
+    height: 40px;
+
+    left: 232px;
+    bottom: -6px;
+
+    font-size: 22px;
+}
+
+
+/* OTP */
+#otp-input .otp-box{
+    width: 47px;
+
+    margin: 0 0.8rem;
+    padding: 9px 0;
+
+    font-size: 1.1rem;
+}
+
+
+/* Button */
+.btn{    
+    padding: 6px 55px;
+    margin: 6px auto;
+
+    width: 160px;
+
+    font-size: 24px;
+}
