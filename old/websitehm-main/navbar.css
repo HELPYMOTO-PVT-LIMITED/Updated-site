@@ -1,0 +1,130 @@
+:root {
+    --primary-color:  #557CBC!important;
+    --secondary-color: #ffffff !important;
+}
+.bg-secondary {
+    background-color: var(--secondary-color) !important;
+}
+
+
+
+
+
+/*navbar*/
+
+.navbar-container {
+  padding-top: 1.25rem !important;
+} 
+
+.bgimg{
+    background-image: url('background_img.jpg') !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    width: 100% !important;
+    height: 140vh !important;
+    clip-path: polygon(0 0, 0 100%, 100% 80%, 100% 0);   
+}
+.helpy,h1{
+  
+    margin-bottom: -12.5rem;
+    margin-left: 56.8rem;
+}
+#h1hm{
+    font-family: 'Ropa Sans', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 160px;
+    line-height: 161px;
+     color: var(--secondary-color);
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 4px white;
+       
+}
+.moto {
+
+   margin-left: -4.37rem;
+   margin-top: 13.12rem;
+}
+
+.bgimg h2{
+    font-family: 'Tomorrow', sans-serif;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 72px;
+    color: var(--secondary-color);
+    margin-top:  12.5rem;
+}
+.bgimg h3{
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 30px;
+    line-height: 43px;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+
+}
+
+.btn-reachus{
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    font-weight: bold;
+    font-family: sans-serif;
+   
+}
+.btn-reachus:focus{
+    opacity: 0.7 !important;
+    box-shadow: none !important;
+}
+.btn-signup{
+    color:var(--secondary-color);
+    background-color: var(--primary-color);
+   margin-right: 27px;
+}
+.btn-signup:hover{
+  color: var(--secondary-color);
+}
+.btn-reachus:hover{
+  color: var(--primary-color);
+}
+ 
+  /*hamburger*/
+  .topnav #myLinks {
+    display: none;
+    
+  }
+  
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.06rem;
+    display: block;
+   
+  }
+  .topnav a.icon {
+    
+    display: block;
+  }
+
+  .fa { 
+   margin-right: 2.81rem;
+  -webkit-font-smoothing: antialiased;
+    margin-top: 1.06rem;
+  }
+
+.nav-icon{
+  color: var(--primary-color)!important;
+}
+
+
+
+
+
+
+@media (max-width: 576px){
+
+    .brand {
+         flex-basis: 60% !important;
+     }
+    }
+    

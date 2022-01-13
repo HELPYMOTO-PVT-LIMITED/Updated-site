@@ -1,0 +1,212 @@
+:root {
+  --primary-color:  #557CBC!important;
+  --secondary-color: #ffffff !important;
+}
+
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color) !important;
+}
+
+/*navbar*/
+.navbar-container {
+  padding-top: 1.25rem !important;
+} 
+
+.bgimg{
+  background-image: url('BlogPost.png') !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  max-width: 100% !important;
+  height: 140vh !important;
+}
+
+div.transbox::before{
+  content: "";
+  background-color: var(--primary-color);
+  opacity: 0.4;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0;
+  height: 140vh;
+}
+
+.btn-signup{
+  color:var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
+.btn-signup:hover{
+  color: var(--secondary-color);
+}
+
+.topnav {
+  font-family: Ropa Sans !important;
+  padding: 1rem !important;
+}
+
+.topnav a {
+  color: var(--bs-dark);
+  text-decoration: none;
+  font-size: 1.25rem !important;
+  display: block; 
+  text-transform: uppercase !important;
+  padding: 0.5rem !important;
+}
+
+
+.fa { 
+  margin-right: 2.81rem;
+  -webkit-font-smoothing: antialiased;
+  margin-top: 1.06rem;
+}
+
+.nav-icon{
+  color: var(--primary-color)!important;
+  padding: 0.5rem !important;
+}
+
+.nav-icon i{
+  padding-right: 1rem !important;
+}
+
+div.transbox p {
+  font-family: Ropa Sans;
+  font-style: italic;
+  font-weight: bolder;
+  font-size:10vw;
+  line-height: 12vw;
+  text-transform: uppercase;
+  color:var(--secondary-color) !important;
+  position: relative;
+  text-align: center;
+}
+
+.partner{
+  padding-top: 13.25rem;
+}
+
+.in-this,h1{
+  font-family: 'Ropa Sans', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 10vw;
+  line-height: 12vw;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 4px white;
+  position: relative;
+  text-align: center;
+}
+
+.fund-us {
+  height: 25rem;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+}
+
+.fund-us h1 {
+  font-family: Ropa Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 150px;
+  line-height: 161px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: #FFFFFF;
+}
+
+.fund{
+  background-color: var(--primary-color);
+  opacity: 0.6;
+  padding-right: 6%;
+  width: 26.43rem;
+  clip-path: polygon(100% 0, 91% 35%, 91% 97%, 0 100%, 0 0);
+}
+
+.us{
+  background: #454545;
+  opacity: 0.6;
+  margin-top: 6.12rem;
+  width: 25rem;
+  text-align: start;
+  clip-path: polygon(8% 0, 100% 0, 100% 100%, 0 99%, 8% 67%);
+}
+
+.nav-modal {
+ 
+}
+
+#enquiry-form {
+  padding: 1rem !important;
+  padding-right: 0 !important;
+  font-family: Ropa Sans !important;
+}
+
+#enquiry-form h3{
+
+}
+
+#enquiry-form .form-control {
+  background-color: transparent !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 0 !important;
+  border-bottom: 3px solid var(--secondary-color) !important;
+}
+
+#enquiry-form .form-control:focus {
+  box-shadow: none !important;
+}
+
+#enquiry-form .form-control::placeholder {
+  color: #E5E5E5 !important;
+}
+
+#enquiry-form .btn {
+  background-color: var(--secondary-color) !important;
+  border-radius: 0 !important;
+}
+
+@media only screen and  (max-width: 576px){
+
+  .brand {
+    flex-basis: 60% !important;
+  }
+  
+  .partner {
+    padding-top: 26.25rem;
+  }
+
+  .in-this,h1{ 
+    -webkit-text-stroke: 2px white;
+  }
+  
+  .fund-us {
+    width: 10vw;
+    display: flex;
+  }
+
+  .fund-us h1 {
+    font-size: 5.62rem;
+    line-height: normal;  
+  }
+
+  .us{
+    padding: 0 3.12rem 0 1.06rem;
+  }
+
+  .fund{
+    padding-right: 2.25rem;
+  }
+}
+

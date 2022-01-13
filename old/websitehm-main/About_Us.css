@@ -1,0 +1,94 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* About Us Section */
+section{
+    min-height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+
+/* all content */
+#container .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 48%;
+    height: 500px;
+
+    padding: 170px 70px;
+
+    
+    background: #454545;
+    
+    text-align: left;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+
+/* Heading- About Us */
+#container .content h4{
+    left: 95px;
+    top: 1130px;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: #F8384F;
+}
+
+
+/* Heading- Brief About Us */
+#container .content h2{
+    margin: 20px 0px;
+    margin-bottom: 35px;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    
+    color: #E5E5E5;
+}
+
+
+#container .content p{
+    width: 72%;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: white;
+}
+
+
+/* Image */
+#img{
+    display: flex;
+
+    width: 50%;
+    height: 600px;
+    
+    background: url(lights.jpg) no-repeat center /cover;
+
+    margin-left: -186px;
+}
+

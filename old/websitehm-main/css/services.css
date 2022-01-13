@@ -1,0 +1,111 @@
+.services-container {
+    background-color: var(--secondary-color) !important;
+}
+
+.services-heading {
+    text-align: center !important;
+}
+
+.services {
+    
+}
+
+#slider {
+    overflow: hidden !important;
+    height: 21.5rem !important;
+    flex-wrap: nowrap !important;
+}
+
+.services-nav .nav-link{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100% !important;
+    padding: 0;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out !important;
+    margin-bottom: 5px;
+}
+
+#v-pills-engine-tab {
+    background-image: url('../images//services/Engine.jpg');
+}
+
+#v-pills-tyre-tab {
+    background-image: url('../images//services/tyre.jpg');
+}
+
+#v-pills-dent-tab {
+    background-image: url('../images//services/Dent.jpg');
+}
+
+#v-pills-lights-tab {
+    background-image: url('../images//services/lights.jpg');
+}
+
+#v-pills-ac-tab {
+    background-image: url('../images//services/Ac.jpg');
+}
+
+#v-pills-general-tab {
+    background-image: url('../images//services/Engine.jpg');
+}
+
+.services-tab-content {
+    padding-left: 1rem !important;
+}
+
+.services-tab-content .tab-img {
+    flex-basis: 50% !important;
+}
+
+.services-tab-content .content {
+    flex-basis: 70% !important;
+}
+
+#btn-next {
+    color: var(--primary-color) !important;
+}
+
+#btn-next:focus {
+    box-shadow: none !important;
+}
+
+@media (min-width:576px){
+
+    .services-heading {
+        flex-basis: 20% !important;
+        justify-content: start !important;
+    }
+    
+    .services-heading-v-sm {
+        writing-mode: vertical-lr;
+        text-transform: capitalize;
+        text-orientation: mixed;
+        transform: rotate(-180deg);
+        transform-origin:center !important;
+    }
+
+    .services {
+        flex-basis: 80% !important;
+    }
+
+    .services-tab-content {
+        flex-basis: 80% !important;
+    }
+
+    .services-tab-content .tab-img {
+        flex-basis: 30% !important;
+    }
+
+}
+ 
+@media (min-width:768px){
+    .services-tab-content .content {
+        margin-left: 1rem !important;
+    }
+}
+
+
+@media (min-width:992px) {
+   
+}
