@@ -1,0 +1,14 @@
+first add your mongodb URI in .env file name it as DB.
+
+to test this API modify your port in index.js file.
+before running server, install all required node modules, run "npm i".
+
+routes and their work :
+    /auth/signup -> to create new account
+    /auth/login -> to login
+    /contact -> to save contact form responses
+    /hire_mechanic -> to save hire mechanic form responses
+    /enquiry -> to save enquiry from responses 
+
+
+-- Vipul Chaudhary
